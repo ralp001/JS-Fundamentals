@@ -18,7 +18,7 @@ for (const msg of messages) {
 }
 // Remove the last newline character if not desired, but usually okay for console.log
 // outputString = outputString.slice(0, -1); // Uncomment this line if you need to remove the trailing newline
-
+outputString = outputString.slice(0, -1);
 // Now, print the combined string using only one console.log
 console.log(outputString);
 
